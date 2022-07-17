@@ -420,35 +420,39 @@ class _CalculatorAppState extends State<CalculatorApp> {
                   // Update the state of the app
                   // ..
                   // Then close the drawer
-                  Navigator.pop(context);
+                  // Navigator.of(context)
+                  //     .push(MaterialPageRoute(builder: (BuildContext context) {
+                  //   return const LocationPage();
+                  // }));
+                  Navigator.of(context).pop();
                 },
               ),
               ListTile(
                 leading: Icon(Icons.people_alt_outlined),
                 title: Text("Social"),
                 onTap: () {
-                  Navigator.pop(context);
+                  Navigator.of(context).pop();
                 },
               ),
               ListTile(
                 leading: Icon(Icons.settings),
                 title: Text("Setting"),
                 onTap: () {
-                  Navigator.pop(context);
+                  Navigator.of(context).pop();
                 },
               ),
               ListTile(
                 leading: Icon(Icons.logout_outlined),
                 title: Text("Logout"),
                 onTap: () {
-                  Navigator.pop(context);
+                  Navigator.of(context).pop();
                 },
               ),
               ListTile(
                 leading: Icon(Icons.email_outlined),
                 title: Text("Email"),
                 onTap: () {
-                  Navigator.pop(context);
+                  Navigator.of(context).pop();
                 },
               ),
             ],
@@ -459,4 +463,13 @@ class _CalculatorAppState extends State<CalculatorApp> {
   }
 }
 
+class LocationPage extends StatelessWidget {
+  const LocationPage({Key? key}) : super(key: key);
 
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(child: Text('Current Location')),
+    );
+  }
+}

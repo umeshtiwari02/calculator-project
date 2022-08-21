@@ -1,18 +1,21 @@
-# my_project
+# calculator-project
 
-A new Flutter project.
+This is my new flutter project.
 
-## Getting Started
+## Brief descriptions about this project
 
-This project is a starting point for a Flutter application.
+It is a simple calculator app.
 
-A few resources to get you started if this is your first Flutter project:
+In which you can addition, multiplication, substraction, division & modulo. And also it has a cool feature, theme(light and dark).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+These are the peview of my application as you can see here...
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p float="left">
+<img align="left" src="https://user-images.githubusercontent.com/91283132/185740594-dc84e50a-8b5c-4c33-b12d-16d2ebc19705.jpeg" width="220" height="450">
 
-<img src="https://user-images.githubusercontent.com/91283132/185740594-dc84e50a-8b5c-4c33-b12d-16d2ebc19705.jpeg" width="250" height="500">
+<img src="https://user-images.githubusercontent.com/91283132/185805359-b3da1bf9-d8ff-4d90-b064-2937eb00c0cc.jpeg" width="220" height="450">
+
+
+<img align="left" src="https://user-images.githubusercontent.com/91283132/185805362-4018730b-ea31-4ff0-a7c3-ef59f6376032.jpeg" width="220" height="450">
+
+</p>
